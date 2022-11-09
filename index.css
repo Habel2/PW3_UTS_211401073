@@ -1,0 +1,51 @@
+body{
+    background-image: url("img/background.png");
+}
+.nav-item{
+    margin-left:20px;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    background-color:gainsboro;
+}
+.side-left{
+    float:left;
+    overflow: hidden;
+    position:relative
+}
+.side-left img {
+    transition: transform .5s ease;
+}
+.side-left:hover img {
+    transform: scale(1.2);
+}
+
+.side-right{
+    float:right;
+    overflow: hidden;
+    position:relative
+}
+.side-right img {
+    transition: transform .5s ease;
+}
+.side-right:hover img {
+    transform: scale(1.2);
+}
+.side-left h4{
+    color:aliceblue;
+    margin-left: 300px;
+}
+.side-right h4{
+    color:aliceblue;
+    margin-left:300px;
+}
+.col{
+    margin-top:50px;
+}
+.footer{
+    padding:20px;
+    background-color:black;
+    color:aliceblue;
+    text-align:center;
+    margin-top:50px;
+}
